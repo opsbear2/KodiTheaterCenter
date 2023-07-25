@@ -6,7 +6,7 @@ draft: true
 
 
 
-{{< toc >}}
+[TOC]
 
 # Kodi-家庭影院系统解决方案
 
@@ -25,6 +25,12 @@ draft: true
 **【视频介绍】视频传送门 🎬**
 
 <a href="https://www.bilibili.com/video/BV1rh411T7aG/?spm_id_from=333.999.0.0" target="_blank">【斥资8元，历时2天半，搭建4K私人家庭影院，纵享10T高清资源，从此实现观影自由】 </a>
+
+
+
+**【博客地址】**
+
+<a href="https://opsbear2.com/mydocs/1.kodi/" target="_blank">【Kodi-家庭影院系统解决方案】 </a>
 
 
 
@@ -753,5 +759,4 @@ Kodi 支持多种版本，根据实际情况进行安装，以下是Windows的�
   - 电影 152
 
 ![image-20230722132000385](https://cdn.jsdelivr.net/gh/opsbear2/ImagesForBlog@master/default/2023-07-22/20230722-132000.png)
-
 
