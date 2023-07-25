@@ -83,10 +83,9 @@ draft: true
 
 
 
-{{< hint type=tip icon=gdoc_github title=数据流转说明 >}}
-{{< /hint >}}
 
 
+**数据流转说明**
 
 1. 从各种影视网站或者`Telegram`频道转存资源到阿里云盘；
 2. `Alist`挂载阿里云盘提供`webdav`服务；
@@ -96,10 +95,7 @@ draft: true
 
 
 
-
-
-{{< hint type=tip icon=gdoc_github title=阿里云盘容量说明 >}}
-{{< /hint >}}
+**阿里云盘容量说明** 
 
 SVIP会员到期后，如不继续续费，将被收回特权容量;当收回容量时您盘中已存储的文件，小于当前可使用容量，则文件将不受任何影响，仍可正常使用。当收回容量时您盘中已存储的文件超出或等于当前可使用容量超出可使用容量部分的文件不会被删除但您将无法向盘中存储文件，即上传、转存等功能暂不可用，其他功能不受影响.
 
@@ -115,9 +111,8 @@ SVIP会员到期后，如不继续续费，将被收回特权容量;当收回容
 
 
 
-{{< hint type=note icon=gdoc_github title=GitHub >}}
+
 使用青龙面板定时任务平台可以实现阿里云盘自动签到，解放你的双手。点击进入传送门 👉🏻<a href="https://github.com/opsbear2/aliyundriveDailyCheck/tree/master" target="_blank">青龙面板阿里云盘自动签到</a>
-{{< /hint >}}
 
 ---
 
@@ -165,7 +160,7 @@ password: IcZOvMFKksJx #初始密码，登录控制台后修改新密码
 
 ---
 
-1. 后台地址：http://ip:5244，登录控制台，初始密码参考`./alist admin`的password
+1. 后台地址：http://ip:5244， 登录控制台，初始密码参考上面的password
 
 <img src="https://cdn.jsdelivr.net/gh/opsbear2/ImagesForBlog@master/default/2023-07-22/20230722-040137.png" alt="示例图片" width="100%" height="80%" />
 
@@ -545,8 +540,7 @@ docker ps -a |grep nastool
 
 
 
-{{< hint type=tip icon=gdoc_github title=刮削过程说明 >}}
-{{< /hint >}}
+**刮削过程说明**
 
 1. 转存一部新的电影放到 temp临时目录里，nastool会检测到目录有新增文件
 2. 随后去 TDMB 网站刮削该资源的海报以及剧情简介等元数据信息
@@ -568,8 +562,7 @@ docker ps -a |grep nastool
 
 
 
-{{< hint type=warning icon=gdoc_github title=文件同步延迟问题 >}}
-{{< /hint >}}
+**文件同步延迟问题**
 
 <font color=red>在云盘里新加资源后，`rclone`不能实时同步到本地磁盘，可以使用`sync`参数进行同步，简单方案可以直接重载磁盘</font>
 
