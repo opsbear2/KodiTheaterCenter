@@ -46,6 +46,12 @@ draft: true
 
 
 
+**【阿里云盘10T资源】**
+
+<a href="https://opsbear2.com/aliyunpan_share_info.json" target="_blank">【10T资源转存，包括国内海外电影、电视剧、动漫】 </a>
+
+
+
 ## 组件说明
 
 ---
